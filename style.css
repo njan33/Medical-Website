@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position: relative;
+    height: 15vh;
+    width: 200vh;
+    background: var(--dark-background-color, #26335D);
+}
+h2{
+    position: absolute;
+    padding: 3vh 0 0 21vh;
+    color: #fff;
+    font-size: 2.2rem;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding-left: 65vh;
+    top: 5vh;
+    font-size: 1.1rem;
+    color: #fff;
+   
+}
+.navbar p{
+    cursor: pointer;
+}
+.login{
+    position: relative;
+    left: 60%;
+    top: 1.9vh;
+    font-size: 1.1rem;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 67%;
+    bottom: 3.3vh;
+    height: 8vh;
+    width: 18vh;
+    border-radius: .7rem;
+    background: var(--primary-color, #1BA0AB);
+    color: #fff;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    }
+    .btn i{
+        position: relative;
+        left: 10px;
+        
+    }
+    .container{
+        background: var(--dark-background-color, #26335D);;
+        height: 85vh;
+        position: relative;
+    }
+    .container p{
+        position: relative;
+        top: 16vh;
+        left: 15vh;
+        font-size: 1.5rem;
+        color: var(--primary-color, #1BA0AB);
+        font-family:'Montserrat';
+        font-weight: 1000;
+        font-style: bold;
+        
+
+    }
+    .container h1{
+        position: relative;
+        left: 15vh;
+        top: 20vh;
+        font-size: 3.3rem;
+        color: #fff;
+    }
+    .container h4{
+        position: relative;
+        left: 15vh;
+        top: 23vh;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    .container .btn1{
+        position: relative;
+        top:-27vh;
+        left: 15vh;
+        height: 7vh;
+        width: 25vh;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+        background: var(--primary-color, #1BA0AB);
+        color: #fff;
+        font-size: 1rem;
+
+    }
+    .container .btn2{
+        position: relative;
+        top:-27vh;
+        left:16vh;
+        height: 7vh;
+        width: 25vh;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+        background: #fff;
+        border: 2px solid ;
+        border-color: var(--primary-color, #1BA0AB);
+        background: transparent;
+        color: var(--primary-color, #1BA0AB);
+        font-size: 1rem;
+
+    }
+    .container .first{
+        position: relative;
+        left: 118vh;
+        bottom: 75vh;
+    }
+    .container .second{
+        position: relative;
+        left: 60vh;
+        bottom:25vh;
+    }
+    .container .third{
+        position: relative;
+        left: -5vh;
+        bottom: 13vh;
+    }
+
